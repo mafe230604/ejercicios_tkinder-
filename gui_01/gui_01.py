@@ -99,7 +99,7 @@ etiq_b.place(x=585, y= 120)
 entry_b = Entry(frame_entrada, width=4, textvariable=b)
 entry_b.config(font=("Arial", 20))
 entry_b.place(x=682,y=120)
-"""
+
 # ------------------
 # frame operaciones
 # ------------------
@@ -108,23 +108,23 @@ frame_operaciones.config(bg="ivory2", width=780, height=120)
 frame_operaciones.place(x=10,y=260)
 
 # boton para sumar los números - texto
-bt_sum = PhotoImage(file="img/boton_sumar.png")
+bt_sum = PhotoImage(file="gui_01/img/boton_sumar.png")
 # bt_sumar = Button(frame_operaciones, text= "Sumar", width=10)
 bt_sumar = Button(frame_operaciones, image=bt_sum, width=105, height=105, command=sumar)
 bt_sumar.place(x=116, y=7)
 
 # boton para borrar entradas y resultado
-bt_bor = PhotoImage(file="img/boton_borrar.png")
+bt_bor = PhotoImage(file="gui_01/img/boton_borrar.png")
 # bt_borrar = Button(frame_operaciones, text="Borrar", width=10)
 bt_borrar = Button(frame_operaciones, image=bt_bor, width=105, height=105, command=borrar)
 bt_borrar.place(x=337, y=7)
 
 # boton para salir - cerrar la app
-bt_sal = PhotoImage(file="img/boton_salir.png")
+bt_sal = PhotoImage(file="gui_01/img/boton_salir.png")
 # bt_salir = Button(frame_operaciones, text="Salir", width=10)
 bt_salir = Button(frame_operaciones, image=bt_sal, width=105, height=105, command=salir)
 bt_salir.place(x=558, y=7)
-
+""""
 # ------------------
 # frame resultados
 # ------------------
