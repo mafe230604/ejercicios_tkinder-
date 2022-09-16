@@ -13,4 +13,4 @@
 
 # Frame resultados
 
-![Frames resultados ](frame_resultados.png "Frame resultados")
+![Frames resultados](framer.png "frame resultados")
