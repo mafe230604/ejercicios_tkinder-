@@ -75,7 +75,7 @@ subtitulo2.config(bg="ivory2", fg="blue", font=("Arial", 15), anchor=CENTER)
 subtitulo2.place(x=390, y=70)
 
 # imagen - logo de la app
-logo = PhotoImage(file="img/btn-suma.png")
+logo = PhotoImage(file="gui_01/img/btn-suma.png")
 etiq_logo = Label(frame_entrada, image=logo)
 etiq_logo.place(x=10,y=10)
 
@@ -99,7 +99,7 @@ etiq_b.place(x=585, y= 120)
 entry_b = Entry(frame_entrada, width=4, textvariable=b)
 entry_b.config(font=("Arial", 20))
 entry_b.place(x=682,y=120)
-
+"""
 # ------------------
 # frame operaciones
 # ------------------
@@ -135,7 +135,7 @@ frame_resultados.place(x=10,y=390)
 # area de texto para resultados
 t_resultados = Text(frame_resultados, width=50, height=3)
 t_resultados.config(bg="green", fg="white", font=("Courier", 20))
-t_resultados.pack()
+t_resultados.pack()"""
 
 # se ejecuta el metodo mainloop() de la clase Tk() a través de la instancia ventana_principal.  Este metodo despliega una ventana simple en pantalla y queda a la espera de lo que el usuario haga (click en boton, escribir, etc).  Cada accion del usuario se conoce como un evento.  El metodo mainloop() es un bucle infinito.
 ventana_principal.mainloop()
